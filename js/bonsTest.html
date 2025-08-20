@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bonds Table</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <table id="bondTable" border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Quantity</th>
+                <th>Unit</th>
+                <th>Description</th>
+                <th>Unit Cost</th>
+                <th>Sub Total</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+function getBondData() {
+    $.getJSON("bonds.json", function (data) {
+        $.each(data.Bonds, function (i, f) {
+            $("#bondTable tbody").append(
+                '<tr class="item-row">' +
+                  '<td class="action"><a class="delete" title="Remove row"><i class="fa fa-minus-circle" style="font-size:20px;color:red"></i></a></td>' +
+                  '<td><input type="text" class="qty" title="Enter Quantity" style="border:solid 1px black;"></td>' +
+                  '<td class="item-name"><input type="text" class="unit" readonly maxlength="5" value="' + f.Unit + '"></td>' +
+                  '<td class="description"><input type="text" class="desc" readonly value="' + f.Description.replace(/"/g, "&quot;") + '"></td>' +
+                  '<td class="unitcost"><input type="text" class="cost" value="' + f.UnitCost.replace(",", "").replace("$","₹") + '" ></td>' +
+                  '<td><div class="price" style="text-align:right;">₹0.00</div></td>' +
+                '</tr>'
+            );
+        });
+    });
+}
+
+$(document).ready(function () {
+    getBondData();
+});
+    </script>
+
+</body>
+</html>

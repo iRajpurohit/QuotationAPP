@@ -1,0 +1,301 @@
+
+* { margin: 0; padding: 0; }
+/*body { font: 14px/1.4 Georgia, serif; }*/
+#page-wrap { width: 800px; margin: 0 auto; }
+input { border: 0;   resize: none; vertical-align:central; height:25px; padding-top:3px;}
+/*table { border-collapse: collapse; }*/
+/*table td, table th { border: 1px solid black; padding: 5px; }*/
+
+/*#panel-group {padding-left:15px; padding-right:15px;}*/
+
+#pageHeader { clear: both; width:99%; margin-right:5px;margin-left:5px; margin-top:5px;}
+#pageHeader td {width:50%; }
+
+#itemheader { clear: both; width:99%;margin-right:5px;margin-left:5px; }
+#itemheader td {padding:5px;}
+#itemheader td.tdval { text-align:left; width:30%; }
+#itemheader td.tdhead { text-align:left; width:18%; }
+#itemheader input { width:100%; border:solid 1px black; height:25px;}
+
+#items { clear: both; width:99%; border: 1px solid black; margin-right:5px;margin-left:5px; padding-bottom:5px;}
+/*#items th { background: #3c8dbc; text-align:center;}*/
+#items th { background: #0d3d56; text-align:center;}
+#items th { color: white;}
+#items td, th { border: 1px solid black; padding: 5px; }
+#items tr.item-row td { border: 0; vertical-align: central; }
+#items td.unitcost { text-align:right; }
+  .qty { text-align:center; }
+  .price {text-align:right; vertical-align:top;}
+  .cost { text-align:right; }
+
+#items input { width: 100%;vertical-align:middle; }
+#logo input { width: 500px;padding-left:10px;height:50px; }
+
+
+
+#calculation { clear: both; width:49.5%;  border: 1px solid black; float:right;margin-right:5px;margin-left:5px; margin-top:5px;}
+#calculation td.sumval { text-align:right;border: 1px solid black; width:12%;}
+#calculation tr {border: 1px solid black;}
+#calculation tr.head {background: #0d3d56; color: white; font-weight:bold;}
+
+#notes{ clear: both; width:99%; margin-right:5px;margin-left:5px;margin-top:5px; border:none;} 
+#notes td{ padding-right:5px;padding-left:5px;} 
+
+#ApprovedBy { clear: both; width:99%; margin-right:5px;margin-left:5px;margin-top:20px;}
+
+/* Clear x in Edge browser */
+
+.search::-ms-clear {
+    display: none;
+}
+
+
+/*#items td.description { width: 385px; }
+#items td.item-name { width: 80px; }
+#items td.action { width: 40px; }
+#items td.description input, #items td.item-name input { width: 100%; }*/
+.deschead {cursor:pointer;}
+#items td.total-line { border-right: 0; text-align: right; }
+#items td.total-value { border-left: 0; padding: 10px; }
+#items td.total-value input {  background: none; }
+#items td.balance { background: #eee; }
+#items td.blank { border: 0; }
+
+#slideToTop {position:fixed;top: 40%; right: 15px; width: 105px; color: #eee;
+              
+               padding:0 0 0 2px;
+                line-height: 40px;
+                text-align: center;
+                background-color: #222d32;
+                cursor: pointer;
+                border-radius: 5px;
+                z-index: 9999;
+                opacity: .7;
+                display:none
+            }
+
+
+
+#load {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    vertical-align: bottom;
+    padding-top: 20%;
+    filter: alpha(opacity=75);
+    opacity: 0.95;
+    font-size: large;
+    color: blue;
+    font-style: italic;
+    font-weight: 400;
+   
+    background-image:url('../img/loading2.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#summary {position:fixed; top: 20%; right: 15px; width: 105px;  color: #eee;
+               
+                line-height: 40px;
+                text-align: left;
+                background-color: #222d32;
+                cursor: pointer;
+                border-radius: 5px;
+                z-index: 9999;
+                /*opacity: .7;*/
+                display:none
+            }
+
+/*#terms { text-align: center;  }
+#terms h5 { text-transform: uppercase; font: 13px Helvetica, Sans-Serif; letter-spacing: 10px; border-bottom: 1px solid black; padding: 0 0 8px 0; margin: 0 0 8px 0; }
+#terms input { width: 100%; text-align: center;}*/
+
+#footer {width: 690px; padding: 5px 0px;    float: left; font-size:10px; text-align: center;}
+#footer P {text-align: center}
+/*input:hover, input:focus, #items td.total-value input:hover, #items td.total-value input:focus, .delete:hover { background-color:#EEFF88; }*/
+
+
+
+
+/* tool Tip Pop */
+.popover-title{ background: #0D3D56; } .popover-content{ background:#b9b9b9; }
+
+/*custom tr tooltip */
+tr .spnTooltip {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:50px; margin-left:28px;
+    width:200px; line-height:16px;
+	opacity:0.9!important;
+}
+tr:hover .spnTooltip{
+    display:inline; position:absolute; top:20px; color:#111;
+    border:1px solid #DCA; background:#b9b9b9;}
+.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+
+
+@media print{
+    /*Add to elements that you do not want to show when printing  */
+    .no-print {display: none !important; }
+
+       #items td:first-child {display:none}
+       #items th:first-child {display:none}
+}
+#searchclear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.custamlist {list-style-type: lower-alpha;}
+
+/* accordion */
+
+#accordion {clear: both; width:99%; margin-right:5px;margin-left:5px;margin-top:5px;}
+
+  .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+        
+    }
+
+    .panel-default > .panel-heading {
+        padding: 5px;
+        border-radius: 0;
+        color: #212121;
+        background-color: #FAFAFA;
+        border-color: #EEEEEE;
+    }
+
+    /*.panel-title {
+        font-size: 14px;
+    }*/
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .more-less {
+        float: right;
+        color: #212121;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+    }
+
+
+    /* Layout */
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper:before,
+.wrapper:after {
+  content: " ";
+  display: table;
+}
+.wrapper:after {
+  clear: both;
+}
+
+
+/*
+ * Content Wrapper - contains the main content
+ * ```.right-side has been deprecated as of v2.0.0 in favor of .content-wrapper  ```
+ */
+.content-wrapper,
+.right-side,
+.main-footer {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  margin-left: 230px;
+  z-index: 820;
+}
+
+/*
+ * Component: Main Header
+ * ----------------------
+ */
+.main-header {
+  position: relative;
+  max-height: 100px;
+  z-index: 1030;
+}
+.main-header .navbar {
+  -webkit-transition: margin-left 0.3s ease-in-out;
+  -o-transition: margin-left 0.3s ease-in-out;
+  transition: margin-left 0.3s ease-in-out;
+  margin-bottom: 0;
+  margin-left: 230px;
+  border: none;
+  min-height: 50px;
+  border-radius: 0;
+}
+ .main-header .navbar {
+    background-color: #3c8dbc;
+}
+.main-header .navbar-brand {
+   background-color: #3c8dbc;
+   color:#fff;
+}
+
+.layout-top-nav .content-wrapper,
+.layout-top-nav .right-side,
+.layout-top-nav .main-footer {
+  margin-left: 0;
+}
+
+
+.layout-top-nav .main-header .navbar {
+  margin-left: 0;
+}
+
+
+/* Page: Invoice
+ * -------------
+ */
+.invoice {
+  position: relative;
+  background: #fff;
+  border: 1px solid #f4f4f4;
+  padding: 20px;
+  margin: 10px 25px;
+}
+
+
+@media (max-width: 767px) {
+  .sidebar-open .content-wrapper
+  {
+    -webkit-transform: translate(230px, 0);
+    -ms-transform: translate(230px, 0);
+    -o-transform: translate(230px, 0);
+    transform: translate(230px, 0);
+  }
+}
+.content-wrapper,
+.right-side {
+  min-height: 100%;
+  background-color: #ecf0f5;
+  z-index: 800;
+}
+
+

@@ -1,0 +1,674 @@
+{
+  "Bonds": [
+    {
+      "Unit": "L.F",
+      "Description": "Striping",
+      "UnitCost": "$1.75"
+    },
+    {
+      "Unit": "E.A",
+      "Description": "Bus Shelter",
+      "UnitCost": "$15000.00"
+    },
+    {
+      "Unit": "C.Y.",
+      "Description": "Roadway Excavation",
+      "UnitCost": "$8.00"
+    },
+    {
+      "Unit": "C.Y.",
+      "Description": "Borrow Excavation",
+      "UnitCost": "$10.00"
+    },
+    {
+      "Unit": "C.Y.",
+      "Description": "Select Borrow",
+      "UnitCost": "$20.00"
+    },
+    {
+      "Unit": "C.Y.",
+      "Description": "Class I-A Excavation (undercut)",
+      "UnitCost": "$15.00"
+    },
+    {
+      "Unit": "C.Y.",
+      "Description": "Class II Excavation",
+      "UnitCost": "$9.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "Remove existing curb & gutter",
+      "UnitCost": "$12.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Remove existing driveway",
+      "UnitCost": "$1,000.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "Remove existing sidewalk",
+      "UnitCost": "$8.00"
+    },
+    {
+      "Unit": "S.F.",
+      "Description": "Construction Signs",
+      "UnitCost": "$16.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Temporary Construction Entrance",
+      "UnitCost": "$3,500.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "6\" CMP or PVC Underdrain",
+      "UnitCost": "$15.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "8\" Dense Graded Aggregate Base",
+      "UnitCost": "$9.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "8\" Primary Paving",
+      "UnitCost": "$19.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "6\" Secondary Paving",
+      "UnitCost": "$14.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "Mill asphalt (per 1\" depth)",
+      "UnitCost": "$10.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "Concrete Curb And Gutter",
+      "UnitCost": "$12.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "Bituminous Curb",
+      "UnitCost": "$7.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "4\" Concrete Sidewalk",
+      "UnitCost": "$23.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "5\" Concrete Sidewalk",
+      "UnitCost": "$26.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "4\" Bituminous Path",
+      "UnitCost": "$17.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Residential Driveway Apron (incl. pipe)",
+      "UnitCost": "$2,300.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Commercial Driveway Apron",
+      "UnitCost": "$3,500.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Intersection Type Driveway",
+      "UnitCost": "$3,500.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Handicap Ramp",
+      "UnitCost": "$750.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Barricade Post",
+      "UnitCost": "$65.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Guard Rail - Barricade",
+      "UnitCost": "$1,350.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "Guard Rail - Steel Beam",
+      "UnitCost": "$18.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "Sodding (Solid)",
+      "UnitCost": "$4.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "Seeding and Mulching",
+      "UnitCost": "$2.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Street Tree",
+      "UnitCost": "$250.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Utility Pole Relocation",
+      "UnitCost": "$15,000.00"
+    },
+    {
+      "Unit": "C.Y.",
+      "Description": "Utility Excavation, Under Roadway",
+      "UnitCost": "$23.00"
+    },
+    {
+      "Unit": "C.Y.",
+      "Description": "Utility Excavation, Outside of Roadway",
+      "UnitCost": "$10.00"
+    },
+    {
+      "Unit": "L.S.",
+      "Description": "Utility Aerial Work only",
+      "UnitCost": "$1,000.00"
+    },
+    {
+      "Unit": "L.S.",
+      "Description": "Utility Pull/Place Cable in Existing Conduit",
+      "UnitCost": "$1,000.00"
+    },
+    {
+      "Unit": "L.S.",
+      "Description": "Minimal Restoration of Right of Way",
+      "UnitCost": "$1,000.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Utility Roadway Crossing via Directional Bore, <70 Ft. RoW",
+      "UnitCost": "$1,000.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Utility Roadway Crossing via Directional Bore, >70 Ft. RoW",
+      "UnitCost": "$2,000.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "2\" Asphalt Pavement Mill & Overlay",
+      "UnitCost": "$20.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Adjust manhole",
+      "UnitCost": "$400.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Adjust water valve",
+      "UnitCost": "$300.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Lot Stakeout",
+      "UnitCost": "$500.00"
+    },
+    {
+      "Unit": "C.Y.",
+      "Description": "Structural Concrete",
+      "UnitCost": "$400.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Street Lights(<36'Wide Paving)",
+      "UnitCost": "$5,000.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Street Lights (Non-Residential < 36' wide)",
+      "UnitCost": "$7,500.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Street Lights(=or>36'Wide Paving)",
+      "UnitCost": "$10,000.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "A-5 Inlet (5' X 2.5')",
+      "UnitCost": "$2,500.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "A-10 Inlet (10' x 2.5')",
+      "UnitCost": "$3,500.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "A-15 Inlet (15' x 2.5')",
+      "UnitCost": "$4,500.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "A-20 Inlet (20' x 2.5')",
+      "UnitCost": "$5,400.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "B-Inlet (Modified)",
+      "UnitCost": "$4,200.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "B-10 Inlet (10' x 2.5')",
+      "UnitCost": "$3,300.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "B-15 Inlet (15' x 2.5')",
+      "UnitCost": "$4,000.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "B-20 Inlet (20' x 2.5')",
+      "UnitCost": "$4,800.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "J Inlet (2' x 4')",
+      "UnitCost": "$2,700.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "K Inlet (3' x 4')",
+      "UnitCost": "$2,800.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "E-4 Inlet",
+      "UnitCost": "$2,400.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "A Manhole (4' Diameter)",
+      "UnitCost": "$3,200.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "B Manhole",
+      "UnitCost": "$3,200.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "D Inlet",
+      "UnitCost": "$1,400.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "Field Connection",
+      "UnitCost": "$2,500.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "Riprap - Ungrouted",
+      "UnitCost": "$50.00"
+    },
+    {
+      "Unit": "S.Y.",
+      "Description": "Riprap - Grouted",
+      "UnitCost": "$60.00"
+    },
+    {
+      "Unit": "C.Y.",
+      "Description": "Gabions",
+      "UnitCost": "$110.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "15\" Class III RCP",
+      "UnitCost": "$27.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "18\" Class III RCP",
+      "UnitCost": "$30.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "21\" Class III RCP",
+      "UnitCost": "$33.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "24\" Class III RCP",
+      "UnitCost": "$35.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "27\" Class III RCP",
+      "UnitCost": "$40.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "30\" Class III RCP",
+      "UnitCost": "$47.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "33\" Class III RCP",
+      "UnitCost": "$52.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "36\" Class III RCP",
+      "UnitCost": "$59.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "42\" Class III RCP",
+      "UnitCost": "$70.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "48\" Class III RCP",
+      "UnitCost": "$89.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "54\" Class III RCP",
+      "UnitCost": "$99.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "60\" Class III RCP",
+      "UnitCost": "$111.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "66\" Class III RCP",
+      "UnitCost": "$122.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "72\" Class III RCP",
+      "UnitCost": "$135.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "15\" Class IV RCP Class IV",
+      "UnitCost": "$30.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "18\" Class IV RCP",
+      "UnitCost": "$33.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "21\" Class IV RCP",
+      "UnitCost": "$36.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "24\" Class IV RCP",
+      "UnitCost": "$39.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "27\" Class IV RCP",
+      "UnitCost": "$43.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "30\" Class IV RCP",
+      "UnitCost": "$52.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "33\" Class IV RCP",
+      "UnitCost": "$58.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "36\" Class IV RCP",
+      "UnitCost": "$66.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "42\" Class IV RCP",
+      "UnitCost": "$79.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "48\" Class IV RCP",
+      "UnitCost": "$100.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "54\" Class IV RCP",
+      "UnitCost": "$113.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "60\" Class IV RCP",
+      "UnitCost": "$125.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "66\" Class IV RCP",
+      "UnitCost": "$138.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "72\" Class IV RCP",
+      "UnitCost": "$152.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "15\" Class V RCP Class V",
+      "UnitCost": "$35.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "18\" Class V RCP",
+      "UnitCost": "$36.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "21\" Class V RCP",
+      "UnitCost": "$40.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "24\" Class V RCP",
+      "UnitCost": "$44.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "27\" Class V RCP",
+      "UnitCost": "$48.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "30\" Class V RCP",
+      "UnitCost": "$57.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "33\" Class V RCP",
+      "UnitCost": "$62.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "36\" Class V RCP",
+      "UnitCost": "$73.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "42\" Class V RCP",
+      "UnitCost": "$88.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "48\" Class V RCP",
+      "UnitCost": "$112.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "54\" Class V RCP",
+      "UnitCost": "$126.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "60\" Class V RCP",
+      "UnitCost": "$142.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "66\" Class V RCP",
+      "UnitCost": "$158.00"
+    },
+    {
+      "Unit": "L.F.",
+      "Description": "72\" Class V RCP",
+      "UnitCost": "$175.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "15\" Concrete Endwall",
+      "UnitCost": "$575.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "18\" Concrete Endwall",
+      "UnitCost": "$850.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "21\" Concrete Endwall",
+      "UnitCost": "$1,150.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "24\" Concrete Endwall",
+      "UnitCost": "$1,425.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "27\" Concrete Endwall",
+      "UnitCost": "$1,725.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "30\" Concrete Endwall",
+      "UnitCost": "$2,000.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "33\" Concrete Endwall",
+      "UnitCost": "$2,300.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "36\" Concrete Endwall",
+      "UnitCost": "$2,875.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "42\" Concrete Endwall",
+      "UnitCost": "$3,450.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "48\" Concrete Endwall",
+      "UnitCost": "$4,600.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "54\" Concrete Endwall",
+      "UnitCost": "$5,175.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "60\" Concrete Endwall",
+      "UnitCost": "$5,750.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "15\" Concrete End Section RCP",
+      "UnitCost": "$335.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "18\" Concrete End Section RCP",
+      "UnitCost": "$400.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "21\" Concrete End Section RCP",
+      "UnitCost": "$450.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "24\" Concrete End Section RCP",
+      "UnitCost": "$550.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "27\" Concrete End Section RCP",
+      "UnitCost": "$670.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "30\" Concrete End Section RCP",
+      "UnitCost": "$790.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "33\" Concrete End Section RCP",
+      "UnitCost": "$970.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "36\" Concrete End Section RCP",
+      "UnitCost": "$1,100.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "42\" Concrete End Section RCP",
+      "UnitCost": "$1,340.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "48\" Concrete End Section RCP",
+      "UnitCost": "$1,575.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "54\" Concrete End Section RCP",
+      "UnitCost": "$1,820.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "60\" Concrete End Section RCP",
+      "UnitCost": "$2,300.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "66\" Concrete End Section RCP",
+      "UnitCost": "$3,700.00"
+    },
+    {
+      "Unit": "Ea.",
+      "Description": "72\" Concrete End Section RCP",
+      "UnitCost": "$5,300.00"
+    }
+  ]
+}
